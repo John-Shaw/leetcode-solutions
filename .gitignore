@@ -30,6 +30,6 @@
 # 忽略不必要的文件
 *.xcodeproj
 *.h
-main.c
+main.cpp
 
 
