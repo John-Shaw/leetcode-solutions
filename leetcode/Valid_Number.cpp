@@ -10,11 +10,13 @@
 #include <string>
 using namespace std;
 
-
-//FSM
-bool isNumber(string s) {
-    
-    
-    
-    return true;
-}
+class Solution {
+public:
+    //FSM
+    bool isNumber(string s) {
+        
+        
+        
+        return true;
+    }
+};
