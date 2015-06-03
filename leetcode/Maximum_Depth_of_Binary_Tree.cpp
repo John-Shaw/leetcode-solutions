@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-
+//Definition for a binary tree node.
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -16,6 +16,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+//DFS
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
