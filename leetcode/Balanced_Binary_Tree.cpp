@@ -19,9 +19,6 @@ struct TreeNode {
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
-        
-        // Start typing your C/C++ solution below
-        // DO NOT write int main() function
         if(root == NULL) return true;
         int val   = GetBalance(root);
         if(val ==-1) return false;
